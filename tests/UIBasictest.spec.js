@@ -5,7 +5,7 @@ test.only('Context Playwright test case',async ({browser})=>
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
-
+    
 });
 
 test('Page Playwright test case',async ({page})=>

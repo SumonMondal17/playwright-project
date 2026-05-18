@@ -13,7 +13,7 @@ const config = ({
   reporter : 'html',
 
   use: {
-   browserName : 'msedge',
+   browserName : 'chromium',
   },
 
   
