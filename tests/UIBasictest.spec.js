@@ -10,6 +10,6 @@ test('Context Playwright test case',async ({browser})=>
 
 test('Page Playwright test case',async ({page})=>
 {
-    await page.goto("https://google.com")
+    await page.goto("https://github.com/SumonMondal17/playwright-project/tree/main")
 
 });
